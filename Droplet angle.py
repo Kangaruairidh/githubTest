@@ -18,6 +18,7 @@ def calculate_contact_angle(x, y, a, b, r):
     contact_angle = 180 - abs(angle_left - angle_right)
     return contact_angle
 
+
 # Main code to process the image
 def process_droplet_image(image_path):
     # Read the image
